@@ -1,0 +1,25 @@
+{
+  "name": "node-postgres-crud-api",
+  "version": "1.0.0",
+  "description": "CMP464 Project 4 \u2014 CRUD REST API with Node.js, Express, and PostgreSQL",
+  "main": "src/server.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "echo \"(Optional) add ESLint here\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
