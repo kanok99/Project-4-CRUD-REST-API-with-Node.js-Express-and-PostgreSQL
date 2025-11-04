@@ -17,7 +17,7 @@ This project follows the tutorial 'CRUD REST API with Node.js, Express, and Post
 4. Run the server:
    npm run dev  # or npm start
 
-The server runs at http://localhost:3000
+
 3. API Endpoints
 Base Path: /api/users
 
