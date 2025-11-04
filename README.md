@@ -37,8 +37,6 @@ npm run dev   # with nodemon
 npm start
 ```
 
-Server starts at **http://localhost:3000** (or your custom `PORT`).
-
 ---
 
 ## API Endpoints
