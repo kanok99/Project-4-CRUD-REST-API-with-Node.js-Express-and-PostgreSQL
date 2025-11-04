@@ -10,13 +10,13 @@ It includes:
 
 ---
 
-## 1️⃣ Prerequisites
+## Prerequisites
 - **Node.js** ≥ 18  
 - **PostgreSQL** (local or hosted). For hosted providers like **Neon**, you can use `DATABASE_URL`.
 
 ---
 
-## 2️⃣ Setup
+## Setup
 ```bash
 # 1. Install dependencies
 npm install
@@ -41,7 +41,7 @@ Server starts at **http://localhost:3000** (or your custom `PORT`).
 
 ---
 
-## 3️⃣ API Endpoints
+## API Endpoints
 
 **Base path:** `/api/users`
 
@@ -61,7 +61,7 @@ curl -X POST http://localhost:3000/api/users   -H "Content-Type: application/jso
 
 ---
 
-## 4️⃣ Keeping credentials secret with `.env`
+## Keeping credentials secret with `.env`
 
 - All PostgreSQL credentials are stored securely in `.env`.  
 - `.gitignore` excludes `.env`, so your secrets never go to GitHub.  
@@ -80,13 +80,13 @@ curl -X POST http://localhost:3000/api/users   -H "Content-Type: application/jso
   DB_SSL=false
   ```
 
-> 💡 **Tip:** In Cursor, right/ctrl-click `src/queries.js` → “Add to Chat context,” then ask:  
+> **Tip:** In Cursor, right/ctrl-click `src/queries.js` → “Add to Chat context,” then ask:  
 > “How can I keep my DB credentials secret with `.env` and test the connection?”  
 > Run your server to confirm `.env` is working.
 
 ---
 
-## 5️⃣ GitHub Submission
+## GitHub Submission
 ```bash
 git init
 git add .
@@ -98,7 +98,7 @@ git push -u origin main
 
 ---
 
-## 6️⃣ Notes & Troubleshooting
+## Notes & Troubleshooting
 
 - If you accidentally committed `.env`, fix it:
   ```bash
